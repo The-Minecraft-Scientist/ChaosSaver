@@ -7,17 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56F494F82998C4DB0095D3E8 /* ChaosSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F494F72998C4DB0095D3E8 /* ChaosSaverView.h */; };
-		56F494FA2998C4DB0095D3E8 /* ChaosSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F494F92998C4DB0095D3E8 /* ChaosSaverView.m */; };
+		5634719B299B046300549AF0 /* SharedTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5634719A299B046300549AF0 /* SharedTypes.h */; };
+		5634719D299B04FB00549AF0 /* SharedTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5634719A299B046300549AF0 /* SharedTypes.h */; };
+		56AA6B1D2998FDCA00CEC801 /* ChaosSaverShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 56AA6B1C2998FDCA00CEC801 /* ChaosSaverShaders.metal */; };
+		56AA6B4C2999093B00CEC801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA6B4B2999093B00CEC801 /* AppDelegate.swift */; };
+		56AA6B4E2999093B00CEC801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA6B4D2999093B00CEC801 /* ViewController.swift */; };
+		56AA6B502999093D00CEC801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AA6B4F2999093D00CEC801 /* Assets.xcassets */; };
+		56AA6B532999093D00CEC801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AA6B512999093D00CEC801 /* Main.storyboard */; };
+		56AA6B582999098700CEC801 /* ChaosSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F495002998C5300095D3E8 /* ChaosSaverView.swift */; };
+		56AA6B592999098700CEC801 /* ChaosSaverShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 56AA6B1C2998FDCA00CEC801 /* ChaosSaverShaders.metal */; };
+		56AA6B5A2999098700CEC801 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F495062998F83A0095D3E8 /* Renderer.swift */; };
+		56AA6B5B2999098700CEC801 /* Float3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F495022998CB880095D3E8 /* Float3.swift */; };
+		56F495012998C5300095D3E8 /* ChaosSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F495002998C5300095D3E8 /* ChaosSaverView.swift */; };
+		56F495032998CB880095D3E8 /* Float3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F495022998CB880095D3E8 /* Float3.swift */; };
+		56F495072998F83A0095D3E8 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F495062998F83A0095D3E8 /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5634719A299B046300549AF0 /* SharedTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedTypes.h; sourceTree = "<group>"; };
+		56AA6B1C2998FDCA00CEC801 /* ChaosSaverShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ChaosSaverShaders.metal; sourceTree = "<group>"; };
+		56AA6B492999093B00CEC801 /* ChaosSaverTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaosSaverTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AA6B4B2999093B00CEC801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56AA6B4D2999093B00CEC801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56AA6B4F2999093D00CEC801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56AA6B522999093D00CEC801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56AA6B542999093D00CEC801 /* ChaosSaverTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChaosSaverTest.entitlements; sourceTree = "<group>"; };
 		56F494F42998C4DB0095D3E8 /* ChaosSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaosSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		56F494F72998C4DB0095D3E8 /* ChaosSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaosSaverView.h; sourceTree = "<group>"; };
-		56F494F92998C4DB0095D3E8 /* ChaosSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaosSaverView.m; sourceTree = "<group>"; };
+		56F495002998C5300095D3E8 /* ChaosSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosSaverView.swift; sourceTree = "<group>"; };
+		56F495022998CB880095D3E8 /* Float3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float3.swift; sourceTree = "<group>"; };
+		56F495062998F83A0095D3E8 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		56AA6B462999093B00CEC801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56F494F12998C4DB0095D3E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -28,10 +56,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56AA6B4A2999093B00CEC801 /* ChaosSaverTest */ = {
+			isa = PBXGroup;
+			children = (
+				56AA6B4B2999093B00CEC801 /* AppDelegate.swift */,
+				56AA6B4D2999093B00CEC801 /* ViewController.swift */,
+				56AA6B4F2999093D00CEC801 /* Assets.xcassets */,
+				56AA6B512999093D00CEC801 /* Main.storyboard */,
+				56AA6B542999093D00CEC801 /* ChaosSaverTest.entitlements */,
+			);
+			path = ChaosSaverTest;
+			sourceTree = "<group>";
+		};
 		56F494EA2998C4DA0095D3E8 = {
 			isa = PBXGroup;
 			children = (
 				56F494F62998C4DB0095D3E8 /* ChaosSaver */,
+				56AA6B4A2999093B00CEC801 /* ChaosSaverTest */,
 				56F494F52998C4DB0095D3E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				56F494F42998C4DB0095D3E8 /* ChaosSaver.saver */,
+				56AA6B492999093B00CEC801 /* ChaosSaverTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,8 +89,11 @@
 		56F494F62998C4DB0095D3E8 /* ChaosSaver */ = {
 			isa = PBXGroup;
 			children = (
-				56F494F72998C4DB0095D3E8 /* ChaosSaverView.h */,
-				56F494F92998C4DB0095D3E8 /* ChaosSaverView.m */,
+				5634719A299B046300549AF0 /* SharedTypes.h */,
+				56F495002998C5300095D3E8 /* ChaosSaverView.swift */,
+				56F495022998CB880095D3E8 /* Float3.swift */,
+				56F495062998F83A0095D3E8 /* Renderer.swift */,
+				56AA6B1C2998FDCA00CEC801 /* ChaosSaverShaders.metal */,
 			);
 			path = ChaosSaver;
 			sourceTree = "<group>";
@@ -56,17 +101,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5634719C299B04F100549AF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5634719D299B04FB00549AF0 /* SharedTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56F494EF2998C4DB0095D3E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F494F82998C4DB0095D3E8 /* ChaosSaverView.h in Headers */,
+				5634719B299B046300549AF0 /* SharedTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		56AA6B482999093B00CEC801 /* ChaosSaverTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AA6B552999093D00CEC801 /* Build configuration list for PBXNativeTarget "ChaosSaverTest" */;
+			buildPhases = (
+				5634719C299B04F100549AF0 /* Headers */,
+				56AA6B452999093B00CEC801 /* Sources */,
+				56AA6B462999093B00CEC801 /* Frameworks */,
+				56AA6B472999093B00CEC801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaosSaverTest;
+			productName = ChaosSaverTest;
+			productReference = 56AA6B492999093B00CEC801 /* ChaosSaverTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		56F494F32998C4DB0095D3E8 /* ChaosSaver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56F494FD2998C4DB0095D3E8 /* Build configuration list for PBXNativeTarget "ChaosSaver" */;
@@ -92,10 +163,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					56AA6B482999093B00CEC801 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					56F494F32998C4DB0095D3E8 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -113,11 +189,21 @@
 			projectRoot = "";
 			targets = (
 				56F494F32998C4DB0095D3E8 /* ChaosSaver */,
+				56AA6B482999093B00CEC801 /* ChaosSaverTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		56AA6B472999093B00CEC801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AA6B502999093D00CEC801 /* Assets.xcassets in Resources */,
+				56AA6B532999093D00CEC801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56F494F22998C4DB0095D3E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,17 +214,106 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		56AA6B452999093B00CEC801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AA6B582999098700CEC801 /* ChaosSaverView.swift in Sources */,
+				56AA6B5A2999098700CEC801 /* Renderer.swift in Sources */,
+				56AA6B5B2999098700CEC801 /* Float3.swift in Sources */,
+				56AA6B4E2999093B00CEC801 /* ViewController.swift in Sources */,
+				56AA6B4C2999093B00CEC801 /* AppDelegate.swift in Sources */,
+				56AA6B592999098700CEC801 /* ChaosSaverShaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56F494F02998C4DB0095D3E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F494FA2998C4DB0095D3E8 /* ChaosSaverView.m in Sources */,
+				56F495072998F83A0095D3E8 /* Renderer.swift in Sources */,
+				56F495012998C5300095D3E8 /* ChaosSaverView.swift in Sources */,
+				56F495032998CB880095D3E8 /* Float3.swift in Sources */,
+				56AA6B1D2998FDCA00CEC801 /* ChaosSaverShaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		56AA6B512999093D00CEC801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AA6B522999093D00CEC801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		56AA6B562999093D00CEC801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChaosSaverTest/ChaosSaverTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = randomscientist.ChaosSaverTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/SharedTypes.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56AA6B572999093D00CEC801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChaosSaverTest/ChaosSaverTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = randomscientist.ChaosSaverTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/SharedTypes.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		56F494FB2998C4DB0095D3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -194,6 +369,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/SharedTypes.h";
 			};
 			name = Debug;
 		};
@@ -245,23 +421,33 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/SharedTypes.h";
 			};
 			name = Release;
 		};
 		56F494FE2998C4DB0095D3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = ChaosSaverView;
+				INFOPLIST_KEY_NSPrincipalClass = ChaosSaver.ChaosSaverView;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = randomscientist.ChaosSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -269,17 +455,25 @@
 		56F494FF2998C4DB0095D3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = ChaosSaverView;
+				INFOPLIST_KEY_NSPrincipalClass = ChaosSaver.ChaosSaverView;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = randomscientist.ChaosSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -287,6 +481,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		56AA6B552999093D00CEC801 /* Build configuration list for PBXNativeTarget "ChaosSaverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AA6B562999093D00CEC801 /* Debug */,
+				56AA6B572999093D00CEC801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		56F494EE2998C4DA0095D3E8 /* Build configuration list for PBXProject "ChaosSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
